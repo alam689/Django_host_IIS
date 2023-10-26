@@ -49,7 +49,8 @@ This is a basic web app to illustrate deployment on Microsoft IIS, Apache + mod_
 8. Add Virtual Directory. In order to enable serving static files map a static alias to the static directory, `C:/inetpub/wwwroot/webproject/static/`
 
 9. Refresh the server and navigate to `localhost`
-two web.config file location : 1) C:\inetpub\wwwroot (Configured web.config file)  and 2) C:\inetpub\wwwroot\Bulkcor\static (General web.config file)
+
+*** two web.config file location : 1) C:\inetpub\wwwroot (Configured web.config file)  and 2) C:\inetpub\wwwroot\Bulkcor\static (General web.config file) ***
 
 
 ## Apache and mod_wsgi
