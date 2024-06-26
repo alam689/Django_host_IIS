@@ -50,7 +50,9 @@ This is a basic web app to illustrate deployment on Microsoft IIS, Apache + mod_
 
 9. Refresh the server and navigate to `localhost`
 
-- two web.config file location : 1) [C:\inetpub\wwwroot] (Configured web.config file)  and [2) C:\inetpub\wwwroot\Bulkcor\static] (General web.config file) 
+- two web.config file location : 1) [C:\inetpub\wwwroot] (Configured web.config file)  and [2) C:\inetpub\wwwroot\Bulkcor\static] (General web.config file)
+10. go to C:\inetpub\wwwroot\pcml-sales-api (Project Directory where manage.py exist)
+  Run  : py manage.py collectstatic
 
 
 ## Apache and mod_wsgi
